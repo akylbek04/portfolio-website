@@ -39,37 +39,17 @@ export default function Experience() {
             //     fontSize: "1.5rem",
             //   }}
             // >
-            // <React.Fragment key={index}>
-            //   <VerticalTimelineElement>
-            //     <h3 className="font-semibold capitalize bg-slate-500">
-            //       {item.title}
-            //     </h3>
-            //     <p className="font-normal !mt-0">{item.location}</p>
-            //     <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75 text-dark">
-            //       {item.description}
-            //     </p>
-            //   </VerticalTimelineElement>
-            // </React.Fragment>
-
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-              contentArrowStyle={{
-                borderRight: "7px solid  rgb(33, 150, 243)",
-              }}
-              date="2011 - present"
-              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-              icon={item.icon}
-            >
-              <h3 className="vertical-timeline-element-title">
-                Creative Director
-              </h3>
-              <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-              <p>
-                Creative Direction, User Experience, Visual Design, Project
-                Management, Team Leading
-              </p>
-            </VerticalTimelineElement>
+            <React.Fragment key={index}>
+              <VerticalTimelineElement>
+                <h3 className="font-semibold capitalize bg-slate-500">
+                  {item.title}
+                </h3>
+                <p className="font-normal !mt-0">{item.location}</p>
+                <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75 text-dark">
+                  {item.description}
+                </p>
+              </VerticalTimelineElement>
+            </React.Fragment>
           );
         })}
       </VerticalTimeline>
