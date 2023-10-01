@@ -5,8 +5,6 @@ import SectionHeading from "./section-heading";
 import { useScroll, motion } from "framer-motion";
 import { experiencesData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
-import { useTheme } from "@/context/theme-context";
-import { IconBaseProps } from "react-icons";
 import LiIcon from "./LiIcon";
 
 type Props = {
@@ -16,7 +14,6 @@ type Props = {
   date: string;
   company: string;
   link: string;
-  // icon: React.FunctionComponent<IconBaseProps>
 };
 
 const Details = ({
