@@ -65,17 +65,26 @@ export const projectsData = [
     imageUrl: leetclone,
   },
   {
-    title: "rmtDev",
+    title: "WhatsApp clone",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Redux"],
+      "The project offers real-time chat, video calls, and voice calls in a responsive and secure interface. Built with advanced technologies, it prioritizes user privacy and seamless communication.",
+    tags: [
+      "Next.js",
+      "Socket.io",
+      "Tailwind CSS",
+      "Node.js",
+      "PostgresSQL",
+      "Prisma",
+      "Zegocloud",
+    ],
     imageUrl: whatsapp,
   },
   {
-    title: "Word Analytics",
+    title: "LMS Platform",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "This platform provides an intuitive interface for managing courses, secure payments with Stripe integration, and high-quality video streaming via Mux. It's powered by efficient data management using Prisma and MySQL, offering a comprehensive online learning experience.",
+
+    tags: ["Next 13", "React", "Stripe", "Mux", "Prisma", "Tailwind", "MySQL"],
     imageUrl: blog,
   },
 ] as const;
