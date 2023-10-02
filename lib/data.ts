@@ -35,7 +35,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduate",
+    title: "Student",
     company: "Seytech SWE Bootcamp",
     link: "https://www.seytech.co/",
     address: "Remote",
