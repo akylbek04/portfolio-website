@@ -35,29 +35,25 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Remote",
+    title: "Graduate",
+    company: "Seytech SWE Bootcamp",
+    link: "https://www.seytech.co/",
+    address: "Remote",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I completed my studies in just 6 months and secured a front-end developer position during the final month of my program.",
     icon: React.createElement(LuGraduationCap),
-    date: "2022",
+    date: "2021 Apr - 2021 Oct",
   },
   {
     title: "Front-End Developer",
-    location: "Remote",
+    company: "Cargo Fleet",
+    link: "",
+    address: "Remote",
     description:
-      "I worked as a front-end developer for past 2 years. During that time I had a chance to lead a team. I have been promoted to Frontend Lead.",
+      "I worked as a front-end developer for the past two years, during which I had the opportunity to lead a team and was subsequently promoted to Frontend Lead.",
     icon: React.createElement(CgWorkAlt),
-    date: "2022 - 2023",
+    date: "2021 Sep - 2023 Aug",
   },
-  // {
-  //   title: "Full-Stack Developer",
-  //   location: "Houston, TX",
-  //   description:
-  //     "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-  //   icon: React.createElement(FaReact),
-  //   date: "2021 - present",
-  // },
 ] as const;
 
 export const projectsData = [
