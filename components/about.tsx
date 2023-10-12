@@ -19,27 +19,30 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After changing my major from{" "}
-        <span className="font-medium">Biology</span> to{" "}
-        <span className="font-medium">Computer Science</span>, I decided to
-        pursue my passion for programming. I enrolled in a coding bootcamp and
-        learned <span className="font-medium"> web development</span>.{" "}
+        After transitioning from a <span className="font-medium">Biology</span>{" "}
+        major to <span className="font-medium">Computer Science</span>, I
+        wholeheartedly embraced my passion for programming. Through a coding
+        bootcamp, I cultivated a strong foundation in{" "}
+        <span className="font-medium"> web development</span>, where my
+        favorite aspect is the thrill of problem-solving and crafting elegant
+        solutions.
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is <span className="font-medium">React, Javascript, Typescript</span>. I
-        am also familiar with Next.js, Node.js and MongoDB. I'm passionate about
-        continuous learning. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        feeling of finally figuring out a solution to a problem. My expertise
+        lies in{" "}
+        <span className="font-medium">React, Javascript(Typescript)</span>. I am
+        also familiar with Next.js, Node.js and MongoDB. My commitment to
+        continuous growth is unwavering. I recently completed a certification
+        course in <span className="font-medium">Typescript</span>. I am excited to
+        contribute my problem-solving prowess and creativity to a dynamic
+        software development team in a full-time role.
       </p>
-
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy watching
-        movies, playing chess and football. I also enjoy{" "}
-        <span className="font-medium">reading books</span>. I am currently
-        reading about <span className="font-medium">psychology</span>. I'm also
-        learning how to play ping pong.
+        <span className="italic">Beyond coding</span>, I had diverse interests,
+        such as chess, football, and reading, fueling my curiosity for the human
+        mind's intricacies. I'm also learning the art of ping pong. I believe
+        that these diverse pursuits enhance my adaptability and creativity,
+        qualities I'm eager to bring to the table as a developer.
       </p>
     </motion.section>
   );
