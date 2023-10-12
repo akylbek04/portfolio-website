@@ -1,10 +1,10 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import leetclone from "@/public/leetclone.png";
 import whatsapp from "@/public/whatsapp.png";
 import blog from "@/public/blog.png";
+import netflix from "@/public/netflix.png"
 
 export const links = [
   {
@@ -65,19 +65,18 @@ export const projectsData = [
     imageUrl: leetclone,
   },
   {
-    title: "WhatsApp clone",
+    title: "Netflix clone",
     description:
-      "The project offers real-time chat, video calls, and voice calls in a responsive and secure interface. Built with advanced technologies, it prioritizes user privacy and seamless communication.",
+      "is a cutting-edge streaming platform developed using a lot of frontend tools, providing an immersive entertainment experience.",
     tags: [
       "Next.js",
-      "Socket.io",
       "Tailwind CSS",
-      "Node.js",
-      "PostgresSQL",
+      "Typescript",
+      "MongoDB",
       "Prisma",
-      "Zegocloud",
+      "NextAuth",
     ],
-    imageUrl: whatsapp,
+    imageUrl: netflix,
   },
   {
     title: "LMS Platform",
