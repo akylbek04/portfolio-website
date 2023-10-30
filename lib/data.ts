@@ -51,7 +51,7 @@ export const experiencesData = [
     description:
       "I worked as a front-end developer for the past two years, during which I had the opportunity to lead a team and was subsequently promoted to Frontend Lead.",
     icon: React.createElement(CgWorkAlt),
-    date: "2021 Sep - Present",
+    date: "2021 Sep - 2023 Oct",
   },
 ] as const;
 
@@ -66,7 +66,7 @@ export const projectsData = [
   {
     title: "Netflix clone",
     description:
-    "is a cutting-edge streaming platform developed using a lot of frontend tools, providing an immersive entertainment experience.",
+      "is a cutting-edge streaming platform developed using a lot of frontend tools, providing an immersive entertainment experience.",
     tags: [
       "Next.js",
       "Tailwind CSS",
@@ -80,30 +80,37 @@ export const projectsData = [
   {
     title: "Discord clone",
     description:
-      "This platform provides an intuitive interface for managing courses, secure payments with Stripe integration, and high-quality video streaming via Mux. It's powered by efficient data management using Prisma and MySQL, offering a comprehensive online learning experience.",
-
-    tags: ["Next.js, React, Typescript, Socket.io, Prisma, Tailwind, MySQL"],
+      "A real-time chat application crafted with Next.js, React.js, and TypeScript, leveraging Socket.io for instant messaging and MySQL with Prisma for seamless data handling.",
+    tags: [
+      "Next.js",  "React", "Typescript", "Socket.io", "Prisma", "Tailwind/Shadcn", "MySQL",
+    ],
     imageUrl: discord,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
+  "HTML/CSS",
   "JavaScript",
   "TypeScript",
-  "React",
+  "React.js",
+  "Redux toolkit / Redux Thunk",
   "Next.js",
-  "Git",
-  "Tailwind CSS",
+  "Git/GitHub",
+  "Framer Motion",
+  "Tailwind CSS/Shandcn/ui",
   "Material UI",
+  "Bootstrap 5",
   "Styled components",
   "Node.js",
-  "Redux",
-  "PostgreSQL",
-  "Firebase",
+  "Python",
+  "C#",
+  "AWS",
+  "MySQL",
+  "NoSQL",
+  "Prisma",
+  "Socket.io",
+  "Firebase/NextAuth",
   "CI/CD",
   "RTL/Jest",
-  "Python",
-  "Framer Motion",
+  "Vercel/Heroku/Netlify"
 ] as const;
