@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import leetclone from "@/public/leetclone.png";
 import discord from "@/public/discord.png";
-import netflix from "@/public/netflix.png";
+import netflix from "@/public/netflix.png"
 
 export const links = [
   {
@@ -62,7 +62,6 @@ export const projectsData = [
       "The project provides a dynamic coding challenge environment, enabling users to practice and improve their algorithmic problem-solving skills.",
     tags: ["React", "Next.js", "Typescript", "Tailwind", "Firebase"],
     imageUrl: leetclone,
-    url: "https://leet-clone.netlify.app",
   },
   {
     title: "Netflix clone",
@@ -77,23 +76,15 @@ export const projectsData = [
       "NextAuth",
     ],
     imageUrl: netflix,
-    url: "https://jovial-strudel-a44c2f.netlify.app",
   },
   {
     title: "Discord clone",
     description:
       "A real-time chat application crafted with Next.js, React.js, and TypeScript, leveraging Socket.io for instant messaging and MySQL with Prisma for seamless data handling.",
     tags: [
-      "Next.js",
-      "React",
-      "Typescript",
-      "Socket.io",
-      "Prisma",
-      "Tailwind/Shadcn",
-      "MySQL",
+      "Next.js",  "React", "Typescript", "Socket.io", "Prisma", "Tailwind/Shadcn", "MySQL",
     ],
     imageUrl: discord,
-    url: "https://discord-clone-production-a42f.up.railway.app",
   },
 ] as const;
 
@@ -121,5 +112,5 @@ export const skillsData = [
   "Firebase/NextAuth",
   "CI/CD",
   "RTL/Jest",
-  "Vercel/Heroku/Netlify",
+  "Vercel/Heroku/Netlify"
 ] as const;
