@@ -9,6 +9,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import about from "@/public/profile.jpg";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -31,7 +32,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://media.licdn.com/dms/image/D4D03AQGq0DBMh_2UvQ/profile-displayphoto-shrink_800_800/0/1680640508181?e=2147483647&v=beta&t=XWr7sUR_hH7F1pzyjAp3EkhIW_tveK8ipxllWVcD-JI"
+              src={about}
               alt="Ricardo portrait"
               width="192"
               height="192"
