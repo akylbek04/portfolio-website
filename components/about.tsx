@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 import Image from "next/image";
@@ -19,7 +18,38 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <div className="h-full flex w-full bg-gray-100 rounded-lg dark:bg-clip-padding dark:backdrop-filter dark:backdrop-blur-sm dark:bg-opacity-10">
+      <section className="bg-gray-100 max-w-[60rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative  flex items-center justify-between transition sm:group-even:pl-8 dark:text-white dark:bg-white/10 ">
+        <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">
+          <h3 className="text-2xl font-semibold">About me</h3>
+          <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
+            Hello, I'm Akylbek Zamirov, a detail-oriented Frontend Developer
+            passionate about creating exceptional digital experiences. With
+            expertise in React, JavaScript and HTML&CSS, I enjoy simplifying
+            intricate concepts into user-friendly designs. Let's work together
+            on something extraordinary.
+          </p>
+          <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
+            During my time at Cargo Fleet, I led the development of an advanced
+            Fleet Management application, streamlining document handling and
+            enhancing real-time tracking. Empowering efficient decision-making
+            and seamless operations, the platform optimized efficiency within
+            the trucking industry.
+          </p>
+          <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
+            Currently, I'm actively seeking new opportunities in
+            Fullstack/Frontend positions.
+          </p>
+        </div>
+
+        <Image
+          src={about}
+          alt="Project I worked on"
+          quality={95}
+          className="hidden sm:block w-[25rem] rounded-t-lg shadow-2xl
+        "
+        />
+      </section>
+      {/* <div className="h-full flex w-full bg-gray-100 rounded-lg dark:bg-clip-padding dark:backdrop-filter dark:backdrop-blur-sm dark:bg-opacity-10">
         <div className="w-full md:w-1/2 p-10 pe-5">
           <h2 className="text-3xl font-bold mb-6 md:mb-8 text-gray-900 dark:text-gray-100">
             About me
@@ -50,7 +80,7 @@ export default function About() {
             className="max-w-3/4 md:max-w-full h-auto rounded-md"
           />
         </div>
-      </div>
+      </div> */}
     </motion.section>
   );
 }
