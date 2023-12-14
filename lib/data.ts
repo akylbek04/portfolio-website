@@ -4,6 +4,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import leetclone from "@/public/leetclone.png";
 import discord from "@/public/discord.png";
 import netflix from "@/public/netflix.png";
+import fakeStore from "@/public/fakeStore.png";
 
 export const links = [
   {
@@ -67,7 +68,7 @@ export const projectsData = [
   {
     title: "Netflix clone",
     description:
-      "is a cutting-edge streaming platform developed using a lot of frontend tools, providing an immersive entertainment experience.",
+    "is a cutting-edge streaming platform developed using a lot of frontend tools, providing an immersive entertainment experience.",
     tags: [
       "Next.js",
       "Tailwind CSS",
@@ -80,25 +81,24 @@ export const projectsData = [
     url: "https://jovial-strudel-a44c2f.netlify.app",
   },
   {
-    title: "Discord clone",
+    title: "Fake store",
     description:
-      "A real-time chat application crafted with Next.js, React.js, and TypeScript, leveraging Socket.io for instant messaging and MySQL with Prisma for seamless data handling.",
+      "Built a React fake store app with advanced search, responsive pagination, and streamlined cart features, enhancing user experience through local storage and Axios.",
     tags: [
-      "Next.js",
       "React",
-      "Typescript",
-      "Socket.io",
-      "Prisma",
-      "Tailwind/Shadcn",
-      "MySQL",
+      "React router",
+      "Styled-components",
+      "Axios",
+      "Context API",
+      "Reactstrap",
     ],
-    imageUrl: discord,
-    url: "https://discord-clone-production-a42f.up.railway.app",
+    imageUrl: fakeStore,
+    url: "https://gleeful-brigadeiros-015ab2.netlify.app",
   },
 ] as const;
 
 export const skillsData = [
-  "HTML/CSS",
+  "HTML5/CSS3",
   "JavaScript",
   "TypeScript",
   "React.js",
@@ -112,8 +112,6 @@ export const skillsData = [
   "Styled components",
   "Node.js",
   "Python",
-  "C#",
-  "AWS",
   "MySQL",
   "NoSQL",
   "Prisma",
